@@ -20,7 +20,10 @@ clusters:
   - name: Data Engineering Cluster
     services: [ATLAS, DAS, HBASE, HDFS, HIVE, HIVE_ON_TEZ, HUE, IMPALA, INFRA_SOLR, KAFKA, OOZIE, RANGER, QUEUEMANAGER, SOLR, SPARK_ON_YARN, TEZ, YARN, ZOOKEEPER]
     repositories:
+      # For licensed clusters:
       - https://archive.cloudera.com/p/cdh7/7.1.6.0/parcels/
+      # For trial clusters uncomment this line:
+      # - https://archive.cloudera.com/cdh7/7.1.4/parcels/ 
     security:
       kerberos: true
     configs:
