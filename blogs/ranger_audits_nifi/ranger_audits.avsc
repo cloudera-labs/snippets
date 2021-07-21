@@ -1,0 +1,144 @@
+{
+  "name": "RangerAudits",
+  "type": "record",
+  "namespace": "com.cloudera.cdp.ranger.audit",
+  "fields": [
+	{
+  	  "name": "id",
+  	  "type": "string"
+	},
+	{
+  	  "name": "access",
+  	  "type": "string"
+	},
+	{
+  	  "name": "enforcer",
+  	  "type": "string"
+	},
+	{
+  	  "name": "agent",
+  	  "type": "string"
+	},
+	{
+  	  "name": "repo",
+  	  "type": "string"
+	},
+	{
+  	  "name": "reqUser",
+  	  "type": "string"
+	},
+	{
+  	  "name": "reqData",
+  	  "type": "string"
+	},
+	{
+  	  "name": "resource",
+  	  "type": "string"
+	},
+	{
+  	  "name": "cliIP",
+  	  "type": "string"
+	},
+	{
+  	  "name": "logType",
+  	  "type": "string"
+	},
+	{
+  	  "name": "result",
+  	  "type": "string"
+	},
+	{
+  	  "name": "policy",
+  	  "type": "string"
+	},
+	{
+  	  "name": "repoType",
+  	  "type": "string"
+	},
+	{
+  	  "name": "resType",
+  	  "type": "string"
+	},
+	{
+  	  "name": "action",
+  	  "type": "string"
+	},
+	{
+  	  "name": "evtTime",
+  	  "type": "string",
+  	  "logicalType": "date"
+	},
+	{
+  	  "name": "seq_num",
+  	  "type": "string"
+	},
+	{
+  	  "name": "event_count",
+  	  "type": "string"
+	},
+	{
+  	  "name": "event_dur_ms",
+  	  "type": "string"
+	},
+	{
+  	  "name": "cluster",
+  	  "type": "string"
+	},
+	{
+  	  "name": "agentHost",
+  	  "type": "string"
+	},
+	{
+  	  "name": "policyVersion",
+  	  "type": "string"
+	},
+	{
+  	  "name": "cliType",
+  	  "type": "string"
+	},
+	{
+  	  "name": "proxyUsers",
+      "type": "string"
+	},
+	{
+  	  "name": "reason",
+  	  "type": "string"
+	},
+	{
+  	  "name": "requestContext",
+  	  "type": "string"
+	},
+	{
+  	  "name": "req_caller_id",
+  	  "type": "string"
+	},
+	{
+  	  "name": "req_self_id",
+  	  "type": "string"
+	},
+	{
+  	  "name": "sess",
+  	  "type": "string"
+	},
+	{
+  	  "name": "tags",
+  	  "type": "string"
+	},
+	{
+  	  "name": "tags_str",
+  	  "type": "string"
+	},
+	{
+  	  "name": "text",
+  	  "type": "string"
+	},
+	{
+  	  "name": "zoneName",
+  	  "type": "string"
+	},
+	{
+  	  "name": "_version_",
+  	  "type": "string"
+	}
+  ]
+}
