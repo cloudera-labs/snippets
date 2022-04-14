@@ -73,7 +73,6 @@ sudo iptables -t "$table" -X
 done
 sudo /usr/sbin/ifconfig docker0 down;
 sudo /usr/sbin/ip link delete docker0;
-sudo /usr/sbin/reboot now
 ";
 done 10< "$input"
 

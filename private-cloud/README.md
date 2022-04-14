@@ -6,6 +6,4 @@
 *kill-1-registry.sh* - script to allow for turning off and disabling the registry on a given set of hosts
 
 
-*WARNING*: this script will trigger an automatic reboot once completed for each RKE node being cleaned up
-
 *kill-2-rke.sh* - script to reset RKE in an environment so it can be reinstalled
