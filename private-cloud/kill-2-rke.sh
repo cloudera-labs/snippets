@@ -22,7 +22,7 @@ input="target-hosts.txt"
 #
 # modify these values as appropriate for your local environment
 #
-priv_key="~/systest"
+priv_key="$HOME/systest"
 sudo_user="systest"
 docker_store='/data/1/docker/*'
 longhorn_store='/data/2/ecs/*'

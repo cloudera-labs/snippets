@@ -20,7 +20,7 @@ input="target-hosts.txt"
 #
 # modify these values as appropriate for your local environment
 #
-priv_key="~/systest"
+priv_key="$HOME/systest"
 sudo_user="systest"
 
 # stop the registry container and remove it
