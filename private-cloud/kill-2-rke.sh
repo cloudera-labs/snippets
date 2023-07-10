@@ -34,7 +34,11 @@ local_store='/data/3/ecs/*'
 #
 while read -r -u10 host;
 do echo '"'Trying..${host}'"';
-ssh -i ${priv_key} -o StrictHostKeyChecking=no ${sudo_user}@${host} "cd /opt/cloudera/parcels/ECS/bin; 
+ssh -i ${priv_key} -o StrictHostKeyChecking=no ${sudo_user}@${host} "
+echo "Removing global read-only mounts, if any";
+sudo mount | awk '/on \/var\/lib\/(kubelet|k3s)/{print \$3}' | xargs -r sudo umount -l
+
+cd /opt/cloudera/parcels/ECS/bin; 
 sudo ./rke2-killall.sh;
 sudo ./rke2-killall.sh;
 sudo ./rke2-uninstall.sh;
