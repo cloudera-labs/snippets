@@ -14,7 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
 echo "Make sure you kill registry and shut down the ECS Services"
 
 input="target-hosts.txt"
